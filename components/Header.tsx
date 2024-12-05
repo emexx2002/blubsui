@@ -19,7 +19,7 @@ const Header = () => {
                         <Link href="/">HOME</Link>
                         <Link href="#tokenomics">TOKENOMICS</Link>
                     </div>
-                    <div className="flex justify-center gap-2">
+                    <div className="flex flex-wrap justify-center gap-2">
                         <Link href="/leaderboard">LEADERBOARD</Link>
                         <Link href="https://suivision.xyz/myspace?feature=Swap" target="_blank" rel="noreferrer">BUY</Link>
                         <Link href="https://birdeye.so/token/0xfa7ac3951fdca92c5200d468d31a365eb03b2be9936fde615e69f0c1274ad3a0::BLUB::BLUB?chain=sui" target="_blank" rel="noreferrer">CHART</Link>
@@ -49,7 +49,7 @@ const Link = ({ href, children, target, rel }: any) => {
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                         stroke="currentColor"
                         aria-hidden="true"
                         data-slot="icon"
@@ -57,12 +57,12 @@ const Link = ({ href, children, target, rel }: any) => {
                     >
                         <path
                             stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeLinejoin="round"
                             d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
                         />
                     </svg>
                 )}
-                <p className="text-2xl">{children}</p>
+                <span className="text-2xl">{children}</span>
             </div>
         </a>
     )

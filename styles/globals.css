@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Playpen Sans", cursive;
+}
+
+h1 {
+    font-family: "Darumadrop One", cursive; 
+}
+
+.animate-marquee-long {
+  animation: marquee 2.8s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(4%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

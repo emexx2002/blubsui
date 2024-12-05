@@ -31,10 +31,10 @@ const Conversion = () => {
               <div className="mt-0">
                 <p className="mb-0 inline-block rounded-xl p-2  text-[#ffffff] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">Value in Dollars:</p>
                 <br />
-                <p className="inline-block rounded-xl p-2 text-6xl font-bold text-[#0eff82] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] sm:text-7xl">${dollarValue.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</p>
+                <p className="inline-block rounded-xl p-2 text-4xl md:text-6xl font-bold text-[#0eff82] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] sm:text-7xl">${dollarValue.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</p>
               </div>
             </h1>
-            <h1 className="mt-6 inline-block p-2 text-3xl leading-8 text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">This is what you'll have when $BLUB <div className="inline sm:block"></div> hits $1 BILLION. It's going to happen.</h1>
+            <h1 className="mt-6 inline-block p-2 text-2xl md:text-3xl leading-8 text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">This is what you'll have when $BLUB <div className="inline sm:block"></div> hits $1 BILLION. It's going to happen.</h1>
           </div>
         </div>
       </div>

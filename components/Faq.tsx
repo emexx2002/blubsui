@@ -20,7 +20,7 @@ const Faq = () => {
               <div>
                 <h3 className="border-t border-slate-500 py-4 text-2xl font-semibold">Coin-Type</h3>
                 <div className="flex max-w-full items-center gap-x-2 text-xl">
-                  <p className="max-w-[300px] break-words sm:max-w-[400px] md:max-w-[600px]">0xfa7ac3951fdca92c5200d468d31a365eb03b2be9936fde615e69f0c1274ad3a0::BLUB::BLUB</p>
+                  <p className="max-w-[250px] md:text-base text-sm break-words sm:max-w-[400px] md:max-w-[600px]">0xfa7ac3951fdca92c5200d468d31a365eb03b2be9936fde615e69f0c1274ad3a0::BLUB::BLUB</p>
                   <div className="w-8">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" data-slot="icon" className="size-8 cursor-pointer text-white">
                       <path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z"></path>

@@ -28,13 +28,13 @@ const Conversion = () => {
             </div>
           </div>
           <div className="text-center">
-            {/* <h1 className=" text-4xl font-bold tracking-tight text-white sm:text-6xl">
+            <h1 className=" text-4xl font-bold tracking-tight text-white sm:text-6xl">
               <div className="mt-0">
-                <p className="mb-0 inline-block rounded-xl p-2  text-[#ffffff] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">Value in Dollars:</p>
+                <p className="mb-0 inline-block rounded-xl p-2 text-4xl md:text-6xl text-[#ffffff] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">USD value (Will be calculated when live)</p>
                 <br />
-                <p className="inline-block rounded-xl p-2 text-4xl md:text-6xl font-bold text-[#0eff82] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] sm:text-7xl">${dollarValue.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</p>
+                {/* <p className="inline-block rounded-xl p-2 text-4xl md:text-6xl font-bold text-[#0eff82] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] sm:text-7xl">${dollarValue.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</p> */}
               </div>
-            </h1> */}
+            </h1>
             <h1 className="mt-6 inline-block p-2 text-2xl md:text-3xl leading-8 text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">The proceeds estimated<div className="inline sm:block"></div> will be donated to "GlobalFishWatch" a non profit organization.</h1>
           </div>
         </div>

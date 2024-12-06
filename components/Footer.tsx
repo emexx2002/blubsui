@@ -7,7 +7,7 @@ const Footer = () => {
         <span className="text-sky-500">$BLUB</span> available for trading on SOl
       </h2>
       <div className="flex items-center justify-center gap-x-4">
-        <a href="https://suivision.xyz/myspace?feature=Swap" target="_blank" rel="noreferrer">
+        <a href="https://raydium.io/swap/" target="_blank" rel="noreferrer">
           <img src="/assets/raydium.png" alt="" className="w-14 rounded-xl bg-blue-800 p-2 shadow-md shadow-blue-200/10 transition hover:scale-125" />
         </a>
        

@@ -16,18 +16,18 @@ const Tokenomics = () => {
                 </div>
                 <div className="mt-4"></div>
                 <div className="flex items-center gap-x-4 text-white">
-                    <p className="text-5xl font-extrabold text-amber-300 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">75%</p>
-                    <p className="font-display font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">LP ( CEX &amp; DEX )</p>
+                    <p className="text-5xl font-extrabold text-amber-300 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">CA</p>
+                    <p className="font-display font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">TBA</p>
                 </div>
                 <div className="flex items-center gap-x-4 text-white">
-                    <p className="text-5xl font-extrabold text-amber-300 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">10%</p>
-                    <p className="font-display font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">GROWTH (MKT &amp; MEDIA)</p>
+                    <p className="text-5xl font-extrabold text-amber-300 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">Supply</p>
+                    <p className="font-display font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">1,000,000,000</p>
                 </div>
                 <div className="flex items-center gap-x-4 text-white">
-                    <p className="text-5xl font-extrabold text-amber-300 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">15%</p>
-                    <p className="font-display font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">CONTRIBUTORS *</p>
+                    <p className="text-5xl font-extrabold text-amber-300 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">Tax</p>
+                    <p className="font-display font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">0%</p>
                 </div>
-                <p className="-translate-y-4 font-display text-base italic text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] sm:text-lg">* Vested linearly over 3 years starting June 29th, 2024.</p>
+                <p className="-translate-y-4 font-display text-base italic text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] sm:text-lg">* Liquidity pool burnt.</p>
             </div>
         </div>
     )

@@ -5,9 +5,9 @@ const Header = () => {
         <div className="absolute left-0 top-0 z-50 w-full">
             <div className="flex h-64 flex-col items-center justify-center overflow-hidden md:px-20 lg:h-40 lg:flex-row lg:justify-between lg:px-36">
                 <div className="flex min-w-36 max-w-min items-center justify-center sm:min-w-32">
-                    <img src="/assets/dd.png" className="w-36 sm:w-32" alt="Logo" />
+                    <img src="/assets/dd2.png" className="w-36 sm:w-32" alt="Logo" />
                 </div>
-                <div className="hidden gap-x-3 lg:flex">
+                {/* <div className="hidden gap-x-3 lg:flex">
                     <Link href="/">HOME</Link>
                     <Link href="#tokenomics">TOKENOMICS</Link>
                     <Link href="/leaderboard">LEADERBOARD</Link>
@@ -24,7 +24,7 @@ const Header = () => {
                         <Link href="https://raydium.io/swap/" target="_blank" rel="noreferrer">BUY</Link>
                         <Link href="https://dexscreener.com/solana" target="_blank" rel="noreferrer">CHART</Link>
                     </div>
-                </div>
+                </div> */}
             </div>
             <div className="p-4"></div>
         </div>

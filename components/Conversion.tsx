@@ -1,14 +1,15 @@
+"use client"
 import React, { useState } from 'react'
 
 
 const Conversion = () => {
-  const [blubValue, setBlubValue] = useState(66642069131)
-  const [dollarValue, setDollarValue] = useState(158411.35)
+  const [blubValue, setBlubValue] = useState(100000000)
+  const [dollarValue, setDollarValue] = useState(50000)
 
   const handleBlubInputChange = (event:any) => {
     const value = event.target.value
     setBlubValue(value)
-    setDollarValue((value / 1000000000) * 158411.35)
+    setDollarValue((value / 1000000000) * 500000)
   }
 
   return (
@@ -34,7 +35,7 @@ const Conversion = () => {
                 <p className="inline-block rounded-xl p-2 text-4xl md:text-6xl font-bold text-[#0eff82] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] sm:text-7xl">${dollarValue.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</p>
               </div>
             </h1>
-            <h1 className="mt-6 inline-block p-2 text-2xl md:text-3xl leading-8 text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">This is what you'll have when $BLUB <div className="inline sm:block"></div> hits $1 BILLION. It's going to happen.</h1>
+            <h1 className="mt-6 inline-block p-2 text-2xl md:text-3xl leading-8 text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">The proceeds estimated $50,000 <div className="inline sm:block"></div> will be donated to "GlobalFishWatch" a non profit organization.</h1>
           </div>
         </div>
       </div>

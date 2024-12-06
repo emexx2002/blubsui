@@ -11,8 +11,8 @@ const Header = () => {
                     <Link href="/">HOME</Link>
                     <Link href="#tokenomics">TOKENOMICS</Link>
                     <Link href="/leaderboard">LEADERBOARD</Link>
-                    <Link href="https://suivision.xyz/myspace?feature=Swap" target="_blank" rel="noreferrer">BUY</Link>
-                    <Link href="https://birdeye.so/token/0xfa7ac3951fdca92c5200d468d31a365eb03b2be9936fde615e69f0c1274ad3a0::BLUB::BLUB?chain=sui" target="_blank" rel="noreferrer">CHART</Link>
+                    <Link href="https://raydium.io/swap/" target="_blank" rel="noreferrer">BUY</Link>
+                    <Link href="https://dexscreener.com/solana" target="_blank" rel="noreferrer">CHART</Link>
                 </div>
                 <div className="mt-4 flex flex-col gap-2 lg:mt-0 lg:hidden">
                     <div className="flex justify-center gap-2">
@@ -21,8 +21,8 @@ const Header = () => {
                     </div>
                     <div className="flex flex-wrap justify-center gap-2">
                         <Link href="/leaderboard">LEADERBOARD</Link>
-                        <Link href="https://suivision.xyz/myspace?feature=Swap" target="_blank" rel="noreferrer">BUY</Link>
-                        <Link href="https://birdeye.so/token/0xfa7ac3951fdca92c5200d468d31a365eb03b2be9936fde615e69f0c1274ad3a0::BLUB::BLUB?chain=sui" target="_blank" rel="noreferrer">CHART</Link>
+                        <Link href="https://raydium.io/swap/" target="_blank" rel="noreferrer">BUY</Link>
+                        <Link href="https://dexscreener.com/solana" target="_blank" rel="noreferrer">CHART</Link>
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@ const Link = ({ href, children, target, rel }: any) => {
                         className="absolute right-0 top-1/2 ml-1 hidden size-3 -translate-y-1/2 sm:inline-block sm:size-4"
                     >
                         <path
-                            stroke-linecap="round"
+                            strokeLinecap="round"
                             strokeLinejoin="round"
                             d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
                         />

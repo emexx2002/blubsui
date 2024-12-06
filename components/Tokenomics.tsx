@@ -12,7 +12,7 @@ const Tokenomics = () => {
                 <div className="flex flex-col items-start gap-x-4 text-white">
                     <p className="text-3xl font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] sm:text-5xl">TOKEN SUPPLY</p>
                     <p className="text-xl font-extrabold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] sm:text-4xl">1,000,000,000 $BLUB</p>
-                    <small className="font-medium drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] sm:text-2xl">(0 T)</small>
+                    <small className="font-medium drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] sm:text-2xl">(1 B)</small>
                 </div>
                 <div className="mt-4"></div>
                 <div className="flex items-center gap-x-4 text-white">

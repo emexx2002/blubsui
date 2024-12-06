@@ -30,7 +30,7 @@ const Conversion = () => {
           <div className="text-center">
             <h1 className=" text-4xl font-bold tracking-tight text-white sm:text-6xl">
               <div className="mt-0">
-                <p className="mb-0 inline-block rounded-xl p-2 text-4xl md:text-6xl text-[#ffffff] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">USD value (Will be calculated when live)</p>
+                <p className="mb-0 inline-block rounded-xl p-2 text-4xl text-[#ffffff] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">USD value <br/>(Will be calculated when live)</p>
                 <br />
                 {/* <p className="inline-block rounded-xl p-2 text-4xl md:text-6xl font-bold text-[#0eff82] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] sm:text-7xl">${dollarValue.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</p> */}
               </div>

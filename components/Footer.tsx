@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div id="hero" className="relative flex flex-col items-center justify-center gap-y-8 border-t border-dashed bg-slate-900 bg-[url('/assets/sui.svg')] bg-cover bg-repeat px-6 pb-32 pt-12 sm:px-24 md:px-40">
       <h2 className="max-w-4xl text-center text-3xl font-bold text-white drop-shadow sm:text-4xl">
-        <span className="text-sky-500">$BLUB</span> available for trading on SOl
+        <span className="text-sky-500">$BLUB</span> will be available for trading on SOl
       </h2>
       <div className="flex items-center justify-center gap-x-4">
         <a href="https://raydium.io/swap/" target="_blank" rel="noreferrer">
